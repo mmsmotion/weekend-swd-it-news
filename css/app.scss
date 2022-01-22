@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+
+$secondary : #d9e8ff;
+
+$font-family-sans-serif : 'Montserrat', sans-serif;
+
+$btn-padding-x : 2rem;
+$btn-border-radius : 2rem;
+
+$navbar-nav-link-padding-x : 1rem;
+$nav-link-font-weight : bold;
+
+$border-radius : 2rem;
+$border-radius-sm : 1rem;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+
+.search-form input:focus{
+  box-shadow: none;
+}
+
+.category-list a:hover, .category-list a.active{
+  background-color: $secondary !important;
+}
+
+.post-img{
+  height: 300px;
+}
+
+
+
+
