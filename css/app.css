@@ -11133,4 +11133,20 @@ textarea.form-control-lg {
   height: 300px;
 }
 
+@media screen and (max-width: 960px) {
+  .post-col {
+    border: none !important;
+  }
+}
+@media screen and (max-width: 540px) {
+  .post-img {
+    height: auto;
+    width: 100%;
+  }
+
+  .post-description {
+    font-size: 0.8rem;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */
